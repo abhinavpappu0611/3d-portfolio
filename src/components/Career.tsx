@@ -15,58 +15,43 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Master of Artificial Intelligence</h4>
+                <h5>Monash University · Melbourne, VIC</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Specialising in machine learning, computer vision, and scalable AI systems.
+              Working with CNNs, Transformers, and deployment pipelines across cloud platforms.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Product Development Intern</h4>
+                <h5>ADP Pvt. Ltd · Hyderabad, India</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Built and deployed a REST API with Java and Spring Boot to automate
+              reporting workflows. Integrated real-time communication using Bullhorn
+              and email alerts, cutting response delays. Collaborated in Agile sprints,
+              delivering tested, production-ready features.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>B.Tech in Computer Science</h4>
+                <h5>GITAM University · Visakhapatnam, India</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2020–24</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Foundation in computer science, software engineering, and data systems.
+              Built full-stack ML applications and developed skills across Python, Java,
+              web frameworks, and databases.
             </p>
           </div>
         </div>

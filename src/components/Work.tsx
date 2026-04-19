@@ -1,36 +1,47 @@
 import { useState, useCallback } from "react";
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "SwarAI",
+    category: "Indian Music Practice Assistant",
+    tools: "Vocal Separation · Sargam & Swara Notation · Tonic Estimation · Lyric Transcription · Hindustani & Carnatic Support",
+    icon: "🎵",
+    accent: "#a78bfa",
+    link: "#",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "ApnaAI",
+    category: "Conversational AI Assistant",
+    tools: "Custom LLM Interface · Multi-turn Chat · NLP Pipeline · Python Backend · REST API Integration",
+    icon: "🤖",
+    accent: "#34d399",
+    link: "#",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "CloudPose",
+    category: "Pose Detection API — Oracle Cloud",
+    tools: "FastAPI · YOLOv8 (CNN) · Kubernetes · Docker · Oracle Cloud · Locust Load Testing",
+    icon: "🏃",
+    accent: "#60a5fa",
+    link: "#",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Alzheimer's Detection",
+    category: "Early Detection via Handwriting Analysis",
+    tools: "Python · CNNs · PyTorch · Darwin Handwriting Dataset · Preprocessing Pipelines · Scikit-learn Validation",
+    icon: "🧠",
+    accent: "#f472b6",
+    link: "#",
+  },
+  {
+    title: "Heart Disease Predictor",
+    category: "Full-Stack ML Web App",
+    tools: "Scikit-learn · Angular · FastAPI · Logistic Regression · Decision Tree · 90%+ Accuracy · Real-time Predictions",
+    icon: "❤️",
+    accent: "#fb7185",
+    link: "#",
   },
 ];
 
@@ -113,11 +124,11 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage
-                        image={project.image}
-                        alt={project.title}
-                        link={project.link}
-                      />
+                      <div className="project-placeholder" style={{ borderColor: project.accent }}>
+                        <div className="project-placeholder-glow" style={{ background: project.accent }} />
+                        <div className="project-placeholder-icon">{project.icon}</div>
+                        <div className="project-placeholder-name" style={{ color: project.accent }}>{project.title}</div>
+                      </div>
                     </div>
                   </div>
                 </div>

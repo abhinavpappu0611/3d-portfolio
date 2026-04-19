@@ -87,20 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>AI & MACHINE LEARNING</h3>
+              <h4>From Research to Production Models</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                I build and deploy ML models end-to-end — CNNs, Transformers,
+                classification and regression pipelines — and ship them as scalable
+                APIs on cloud infrastructure.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">PyTorch</div>
+                <div className="what-tags">TensorFlow</div>
+                <div className="what-tags">Scikit-learn</div>
+                <div className="what-tags">YOLOv8</div>
+                <div className="what-tags">Transformers</div>
+                <div className="what-tags">OpenCV</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +125,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>BUILD &amp; DEPLOY</h3>
+              <h4>Cloud, APIs & Full-Stack Engineering</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                I build the systems behind it: REST APIs, containerised services,
+                and full-stack web apps — deployed on cloud, not just running on localhost.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Spring Boot</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Kubernetes</div>
+                <div className="what-tags">Oracle Cloud</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">MySQL &amp; MongoDB</div>
               </div>
               <div className="what-arrow"></div>
             </div>
