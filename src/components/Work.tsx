@@ -4,9 +4,9 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "SwarAI",
+    title: "SwaiAI",
     category: "Indian Music Practice Assistant",
-    tools: "Vocal Separation · Sargam & Swara Notation · Tonic Estimation · Lyric Transcription · Hindustani & Carnatic Support",
+    tools: "Vocal Separation, Sargam/Swara Notation, Tonic Estimation, Transcription",
     icon: "🎵",
     accent: "#a78bfa",
     link: "#",
@@ -14,23 +14,23 @@ const projects = [
   {
     title: "ApnaAI",
     category: "Conversational AI Assistant",
-    tools: "Custom LLM Interface · Multi-turn Chat · NLP Pipeline · Python Backend · REST API Integration",
+    tools: "LLM, Chat Interface, NLP, Python",
     icon: "🤖",
     accent: "#34d399",
     link: "#",
   },
   {
     title: "CloudPose",
-    category: "Pose Detection API — Oracle Cloud",
-    tools: "FastAPI · YOLOv8 (CNN) · Kubernetes · Docker · Oracle Cloud · Locust Load Testing",
+    category: "Pose Detection API",
+    tools: "FastAPI, YOLOv8, Kubernetes, Oracle Cloud, Locust",
     icon: "🏃",
     accent: "#60a5fa",
     link: "#",
   },
   {
     title: "Alzheimer's Detection",
-    category: "Early Detection via Handwriting Analysis",
-    tools: "Python · CNNs · PyTorch · Darwin Handwriting Dataset · Preprocessing Pipelines · Scikit-learn Validation",
+    category: "Handwriting Classification Pipeline",
+    tools: "Python, CNNs, PyTorch, Darwin Dataset, Scikit-learn",
     icon: "🧠",
     accent: "#f472b6",
     link: "#",
@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Heart Disease Predictor",
     category: "Full-Stack ML Web App",
-    tools: "Scikit-learn · Angular · FastAPI · Logistic Regression · Decision Tree · 90%+ Accuracy · Real-time Predictions",
+    tools: "Scikit-learn, Angular, Logistic Regression, Decision Tree, FastAPI",
     icon: "❤️",
     accent: "#fb7185",
     link: "#",
